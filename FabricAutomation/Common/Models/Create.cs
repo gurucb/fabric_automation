@@ -4,6 +4,7 @@ namespace Microsoft.MCI.Common.Model.FabricAPI
 {
 	public class CreateRequest: FabricRequestBase
     {
+        public FabricResource resource { get; set; }
         public override bool isValid(FabricRequestBase request)
         {
             return base.isValid(request);

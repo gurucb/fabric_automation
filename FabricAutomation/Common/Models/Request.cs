@@ -8,6 +8,9 @@ namespace Microsoft.MCI.Common.Model.FabricAPI
 
 		public string FabricBaseURI { get; set; }
 
+		
+
+
 
 		public virtual bool isValid(FabricRequestBase request)
 		{

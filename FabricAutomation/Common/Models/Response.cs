@@ -2,8 +2,6 @@
 {
     public class FabricErrorResposeBase
     {
-        public string Code { get; set; }
-
-        public string Message { get; set; }
+       public ValidationError validationError {  get; set; }
     }
 }
